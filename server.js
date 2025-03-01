@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors());
 
 // MongoDB Connection
-mongoose.connect('mongodb://localhost:27017/globetrotterDB', {
+mongoose.connect('mongodb+srv://ss151245:PlzclvC6iJKROvsY@cluster0.k62op.mongodb.net/globetrotterDB', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => console.log('✅ Connected to MongoDB'))
